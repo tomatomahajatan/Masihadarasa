@@ -1,162 +1,117 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Story</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: #000000;
+            color: #eaeaea;
+            font-family: Verdana, sans-serif;
+            font-size: 0.9rem;
+        }
+
+        .section-full {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .text-large {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 40px;
+            letter-spacing: 1px;
+            color: #ffffff;
+        }
+
+        .box {
+            background: #1f1f1f;
+            color: #eaeaea;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 3px 20px rgba(255,255,255,0.15);
+            height: 100%;
+            transition: 0.35s ease;
+        }
+
+        .box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 45px rgba(255, 255, 255, 0.55);
+            background: #262626;
+        }
+
+        footer {
+            background: rgba(255,255,255,0.05);
+            color: #eaeaea;
+        }
+    </style>
 </head>
-<body bgcolor="#e6f2ff">
+<body>
 
-  <table width="950" align="center" bgcolor="white" border="0" cellpadding="10">
-    <!-- Banner -->
-    <tr>
-      <td align="center">
-        <img src="image/banner.png" width="70%" alt="Banner Website">
-      </td>
-    </tr>
+<section class="section-full">
+    <div class="container">
+        <h1>Welcome to My Story</h1>
 
-    <!-- Menu Navigasi -->
-   <tr>
-    <td bgcolor="#7EC1EB" height="40">
-    <table width="100%" border="0">
-      <tr>
-        <td align="center">
-          <font face="verdana" size="4">
-            <a href="home.html"><b>HOME</b></a>
-          </font>
-        </td>
-        <td align="center">
-              <font face="verdana" size="4">
-                <a href="history.html"><b>HISTORY</b></a>
-              </font>
-            </td>
-        <td align="center">
-          <font face="verdana" size="4">
-            <a href="mygallery.html"><b>MY GALLERY</b></a>
-          </font>
-        </td>
-        <td align="center">
-          <font face="verdana" size="4">
-            <a href="contactme.html"><b>CONTACT ME</b></a>
-          </font>
-        </td>
-        <td align="center">
-          <font face="verdana" size="4">
-            <a href="aboutme.html"><b>ABOUT ME</b></a>
-          </font>
-        </td>
-      </tr>
-      </table>
-    </td>
-    </tr>
+        <div class="row g-5">
 
+            <div class="col-md-6">
+                <div class="box h-100">
+                    <p class="text-large">
+                        Setiap cerita punya caranya sendiri untuk kembali<br>
+                        bahkan ketika kita merasa sudah melupakan dan pergi
+                    </p>
+                </div>
+            </div>
 
-    <!-- Konten Utama -->
-    <tr>
-      <td>
-        <font face="verdana" size ="2">
-        <h1 align="center">Mobil JDM</h1>
+            <div class="col-md-6">
+                <div class="box h-100">
+                    <p class="text-large">
+                        Kadang kita tidak benar-benar selesai<br>
+                        kita hanya berhenti untuk memulai
+                    </p>
+                </div>
+            </div>
 
-        <img src="image/prejdm.gif" 
-        width="400px"
-        height="200px" 
-        alt="gambar mobil drift" 
-        title="animasi mobil drift "
-        align="left" 
-        hspace="10px" 
-        vspace="0px">
-      
-        <p align="justify">JDM adalah singkatan dari <font color="red">Japanese Domestic Market</font>, yang merujuk pada kendaraan (terutama mobil) yang diproduksi dan hanya dijual untuk pasar domestik Jepang. Mobil-mobil ini dikenal karena performa tinggi, desain unik, dan teknologi canggihnya, yang menjadikannya fenomena global di kalangan pecinta otomotif.</p>
-        <p align="justify">Istilah JDM juga sering digunakan secara lebih luas untuk merujuk pada mobil-mobil Jepang dengan karakteristik serupa, meskipun tidak semua mobil buatan Jepang adalah JDM.</p>
-        <p align="justify">Jadi pada kesempatan kali ini <a href="aboutme.html">aku</a> akan mengulas dan membahas apa sih mobil JDM dan apa saja mobil JDM yang menjadi daya tarik dalam komunitas JDM.</p>
-        <br>
+            <div class="col-md-6">
+                <div class="box h-100">
+                    <p class="text-large">
+                        Beberapa luka tidak terlihat<br>
+                        namun tetap terasa setiap kali kita mengingat
+                    </p>
+                </div>
+            </div>
 
-        <h1 align="center">Arti Mobil JDM</h1>
-        <img src="image/jdm.gif"
-        width="400px"
-        height="240px"
-        alt="gambar mobil jdm"
-        title="mobil jdm"
-        align="right" 
-        hspace="10px" 
-        vspace="0px">
-        
+            <div class="col-md-6">
+                <div class="box h-100">
+                    <p class="text-large">
+                        Mungkin bukan tentang kembali<br>
+                        tapi tentang memahami apa yang pernah terjadi
+                    </p>
+                </div>
+            </div>
 
-        <p align="justify">Suka atau tidak suka, arti mobil JDM mulai bergeser menjadi tren modifikasi. Bila bicara mobil custom, ciri khas JDM di Indonesia bisa dilihat dari aura sporty yang hadir melalui kap mesin mobil warna hitam. Lalu bodinya juga dicat dengan warna yang tidak terlalu ramai.</p>
-        <p align="justify">Ditambah lagi, kehadiran part atau aksesori hasil impor langsung dari Jepang yang diletakkan ke mobil. Ambil contoh Toyota Camry dengan GR Part yang cuma ada di Jepang. Komponennya antara lain pelek GR 19 inci dengan material aluminium, ban Goodyear EfficientGrip Comfort ukuran 235/40-R19, hingga performance damper yang berguna mengurangi getaran dan suara berisik saat berkendara, serta lebih stabil saat mobil diajak melaju dalam kecepatan tinggi.</p>
-        <p align="justify">Namanya juga cuma dijual di Jepang, jadi pastilah aksesori atau part JDM produksinya terbatas. Oleh karena itulah, harganya juga mahal.</p>
-        <p align="justify">Ada pula yang menggunakan komponen khas mobil Negeri Sakura. Sebut saja pelat nomor dengan kombinasi huruf Jepang, stiker Koreisha dan Wakaba untuk menunjukkan kemahiran berkendara kamu, dan lain-lain. </p>
-        <p align="justify">Selain itu, mobil JDM sering dilengkapi dengan teknologi dan komponen yang lebih canggih. Mesin yang lebih kuat, sistem suspensi yang ditingkatkan, dan teknologi terbaru. Dari mesin turbo hingga sistem knalpot yang disesuaikan, modifikasi mobil JDM adalah bagian integral dari budaya otomotif ini.</p>
-        <p align="justify">Di Indonesia sendiri budaya mobil JDM telah memunculkan komunitas penggemar yang kuat di seluruh dunia. Acara-acara pertemuan, pameran mobil, dan forum online adalah tempat di mana penggemar mobil JDM berkumpul untuk berbagi pengetahuan, pengalaman, dan inspirasi modifikasi.</p>
-        <p align="justify">Jadi pada dasarnya mobil JDM telah mengubah cara orang melihat dan mendefinisikan mobil. Mereka bukan hanya kendaraan, tetapi juga ekspresi dari kreativitas dan dedikasi para insinyur Jepang dalam menciptakan mobil yang unik dan inovatif.</p>
-        <p align="justify">Kultur otomotif Jepang, dengan pengaruhnya yang mendalam pada budaya pop dan industri otomotif global, terus memikat para pecinta mobil di seluruh dunia. Bagi mereka, mobil JDM adalah lebih dari sekadar kendaraan. Itu adalah simbol dari ketekunan, kualitas, dan inovasi yang menginspirasi cinta sejati terhadap dunia otomotif.</p>
-        <p align="justify">Bukan tidak mungkin arti mobil JDM ke depannya dapat dicirikan dari kendaraan yang ramah lingkungan. Apalagi saat ini banyak pabrikan Jepang yang mulai menunjukkan kebolehannya dalam menggarap mesin yang bisa menggunakan berbagai bahan bakar alternatif seperti hidrogen, Menarik bukan?</p>
-        
-        <h1 align="center">Keunggulan Mobil JDM</h1>
-        <img src="image/drift.gif"
-        width="400px"
-        height="270px"
-        alt="gambar mobil drift"
-        title="mobil drift"
-        align="left" 
-        hspace="10px" 
-        vspace="0px">
-        <h3>1. Inovasi Teknologi</h3>
-        <p align="justify">Jepang dikenal sebagai negara yang maju dalam hal teknologi, dan hal ini tercermin dalam mobil-mobil mereka. Fitur-fitur canggih sering kali muncul pertama kali di mobil JDM sebelum diadopsi pasar global. </p>
-        <h3>2. Performa Tinggi</h3>
-        <p align="justify">Banyak mobil JDM dirancang dengan fokus pada performa. Mesin yang powerful, sistem pengereman yang responsif, dan handling yang presisi menjadi standar bagi mobil-mobil ini. </p>
-        <h3>3. Desain Unik</h3>
-        <p align="justify">Mobil JDM seringkali memiliki desain yang berbeda dari mobil-mobil Eropa atau Amerika. Garis-garis tajam, lampu yang futuristik, dan bentuk bodi yang aerodinamis menjadi ciri khas mereka. </p>
-        <h3>4. Kustomisasi</h3>
-        <p align="justify">Kultur modifikasi sangat kuat di kalangan penggemar JDM. Banyak pemilik mobil JDM yang senang mengubah tampilan atau meningkatkan performa mobilnya, menciptakan kendaraan yang benar-benar personal. </p>
-        <h3>5. Kelangkaan</h3>
-        <p align="justify">Karena awalnya diproduksi hanya untuk pasar Jepang, banyak mobil JDM yang menjadi barang langka di negara lain. Hal ini menambah daya tarik dan nilai koleksi mereka.
-        </p>
-        <h3>6. Komunitas Penggemar yang Kuat</h3>
-        <p align="justify">Ada komunitas penggemar JDM yang besar di seluruh dunia. Mereka sering mengadakan pertemuan, pameran, dan acara lainnya untuk berbagi pengetahuan dan pengalaman tentang mobil JDM. </p>
-        <h3>7. Nilai Investasi</h3>
-        <p align="justify">Banyak mobil JDM yang nilainya meningkat seiring waktu, terutama model-model langka atau ikonik. Ini menjadikan mereka sebagai investasi yang menarik bagi kolektor. </p>
-        
+        </div>
+    </div>
+</section>
 
-        <h1 align="center">Modifikasi Mobil JDM</h1>
-        <img src="image/gtr.gif" 
-        width="400px"
-        height="250px"
-        alt="gambar modif jdm gtr"
-        title="modif jdm gtr"
-        align="right" 
-        hspace="10px" 
-        vspace="0px">
-        <p align="justify"><u>Modifikasi mobil JDM adalah seni yang menggabungkan kreativitas, teknik, dan kecintaan terhadap otomotif.</u> Budaya modifikasi ini telah menjadi bagian integral dari komunitas JDM di seluruh dunia, di mana para penggemar berusaha untuk meningkatkan performa, estetika, dan keunikan kendaraan mereka.</p>
-        <p align="justify">Modifikasi mobil JDM dapat mencakup berbagai aspek, mulai dari perubahan mesin hingga penyesuaian eksterior dan interior. Beberapa modifikasi umum meliputi peningkatan performa mesin, seperti pemasangan turbocharger atau supercharger, penggantian sistem knalpot untuk meningkatkan aliran udara, serta tuning ECU untuk mengoptimalkan kinerja mesin.</p>
-        <p align="justify">Selain itu, modifikasi suspensi dan sistem pengereman juga sering dilakukan untuk meningkatkan handling dan stabilitas kendaraan. Penggantian pelek dan ban dengan ukuran yang lebih besar atau lebih lebar juga menjadi pilihan populer untuk meningkatkan tampilan dan performa mobil JDM.</p>
-        <p align="justify">Dari segi estetika, modifikasi eksterior melibatkan pemasangan body kit, spoiler, dan lampu custom yang memberikan tampilan yang lebih agresif dan unik. Sementara itu, interior mobil JDM juga dapat dimodifikasi dengan penambahan kursi racing, sistem audio berkualitas tinggi, dan aksesori lainnya yang meningkatkan kenyamanan dan gaya.</p>
-        <p align="justify">Komunitas modifikasi mobil JDM sering kali berbagi ide, tips, dan pengalaman melalui forum online, pertemuan komunitas, dan acara pameran mobil. Ini menciptakan lingkungan yang mendukung bagi para penggemar untuk belajar dan berkembang dalam seni modifikasi.</p>
-        <p align="justify">Namun, penting untuk diingat bahwa modifikasi mobil JDM harus dilakukan dengan hati-hati dan sesuai dengan regulasi lalu lintas yang berlaku. Keselamatan harus selalu menjadi prioritas utama, dan modifikasi yang dilakukan harus mempertimbangkan dampaknya terhadap performa dan keandalan kendaraan.</p>
-        <p align="justify">Secara keseluruhan, modifikasi mobil JDM adalah ekspresi dari kecintaan terhadap otomotif dan budaya Jepang. Dengan kombinasi inovasi teknologi, estetika yang menarik, dan komunitas yang solid, modifikasi mobil JDM terus menjadi fenomena yang memikat bagi para penggemar di seluruh dunia.</p>
+<footer class="text-center py-3">
+    © 2025 My Web Story<br>
+    Konsultasi Kesehatan Jiwa<br> Hub : <strong>14022</strong>
+</footer>
 
-
-        
-        <h1 align="center">JDM Sebagai Simbol</h1>
-        <img src="image/wibustres.jpg"
-        width="100%"
-        height="100%"
-        alt="gambar mobil bersama waifu"
-        title="mobil gtr bersama my istri"
-        align="center">
-        <p align="justify">Mobil JDM adalah simbol dari inovasi, performa, dan budaya otomotif Jepang. Dengan kelebihan-kelebihan yang dimilikinya, tidak heran jika mobil-mobil ini memiliki daya tarik yang kuat bagi para penggemar otomotif di seluruh dunia. Baik dari segi teknologi, desain, maupun komunitas penggemarnya, JDM terus menjadi fenomena yang memikat hati banyak orang.</p>
-        <p align="justify">Melalui modifikasi yang kreatif dan beragam, mobil JDM tidak hanya menjadi kendaraan, tetapi juga karya seni yang mencerminkan kepribadian dan passion pemiliknya. Dengan contoh-contoh mobil JDM populer seperti <a href="mygallery.html">Skyline GT-R, Toyota Supra, Mazda RX-7, Honda NSX, dan Mitsubishi Lancer Evolution,</a>jelas bahwa JDM memiliki warisan yang kaya dan berpengaruh dalam dunia otomotif.</p>
-        <p align="justify">Secara keseluruhan, mobil JDM adalah lebih dari sekadar kendaraan mereka adalah simbol dari dedikasi, inovasi, dan kecintaan terhadap otomotif yang terus menginspirasi generasi baru penggemar di seluruh dunia.</p>
-        </font>
-        </td>
-      </tr>
-    <!-- Footer -->
-    <tr>
-      <td align="center" bgcolor="#7EC1EB" height="60">
-        &copy; Copyright - Faza Fadlan Gifari | 251011701195 | 01SIFP013
-      </td>
-    </tr>
-  </table>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
