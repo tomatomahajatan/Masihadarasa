@@ -9,66 +9,41 @@
 
     <style>
         body {
-            background: #000000;
+            background-color: #000;
             color: #eaeaea;
             font-family: Verdana, sans-serif;
-            font-size: 0.9rem;
         }
 
-        .section-full {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 60px 20px;
-            text-align: center;
-        }
-
-        .text-large {
-            font-size: 1.2rem;
-            line-height: 1.6;
-        }
-
-        h1 {
-            font-size: 2rem;
-            margin-bottom: 40px;
-            letter-spacing: 1px;
-            color: #ffffff;
-        }
-
-        .box {
+        .story-box {
             background: #1f1f1f;
-            color: #eaeaea;
-            padding: 30px;
             border-radius: 12px;
-            box-shadow: 0 3px 20px rgba(255,255,255,0.15);
-            height: 100%;
+            padding: 30px;
             transition: 0.35s ease;
+            box-shadow: 0 3px 20px rgba(255,255,255,0.15);
         }
 
-        .box:hover {
+        .story-box:hover {
             transform: translateY(-10px);
-            box-shadow: 0 0 45px rgba(255, 255, 255, 0.55);
             background: #262626;
+            box-shadow: 0 0 45px rgba(255,255,255,0.55);
         }
 
         footer {
             background: rgba(255,255,255,0.05);
-            color: #eaeaea;
         }
     </style>
 </head>
 <body>
 
-<section class="section-full">
+<section class="min-vh-100 d-flex align-items-center text-center">
     <div class="container">
-        <h1>Welcome to My Story</h1>
+        <h1 class="fw-bold mb-5">Welcome to My Story</h1>
 
-        <div class="row g-5">
+        <div class="row g-4">
 
             <div class="col-md-6">
-                <div class="box h-100">
-                    <p class="text-large">
+                <div class="story-box h-100">
+                    <p class="fs-5">
                         Setiap cerita punya caranya sendiri untuk kembali<br>
                         bahkan ketika kita merasa sudah melupakan dan pergi
                     </p>
@@ -76,8 +51,8 @@
             </div>
 
             <div class="col-md-6">
-                <div class="box h-100">
-                    <p class="text-large">
+                <div class="story-box h-100">
+                    <p class="fs-5">
                         Kadang kita tidak benar-benar pernah selesai<br>
                         kita hanya berhenti untuk memulai
                     </p>
@@ -85,8 +60,8 @@
             </div>
 
             <div class="col-md-6">
-                <div class="box h-100">
-                    <p class="text-large">
+                <div class="story-box h-100">
+                    <p class="fs-5">
                         Beberapa luka tidak terlihat<br>
                         namun tetap terasa setiap kali kita mengingat
                     </p>
@@ -94,8 +69,8 @@
             </div>
 
             <div class="col-md-6">
-                <div class="box h-100">
-                    <p class="text-large">
+                <div class="story-box h-100">
+                    <p class="fs-5">
                         Mungkin bukan tentang kembali<br>
                         tapi tentang memahami apa yang pernah terjadi
                     </p>
@@ -106,9 +81,9 @@
     </div>
 </section>
 
-<footer class="text-center py-3">
+<footer class="text-center py-3 text-light">
     © 2025 My Web Story<br>
-    Konsultasi Kesehatan Jiwa<br> Hub : <strong>14022</strong>
+    Konsultasi Kesehatan Jiwa — Hubungi <strong>14022</strong>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
